@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>杨墨 | 个人名片</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <div class="bg-shape shape-one"></div>
+    <div class="bg-shape shape-two"></div>
+    <div class="grid-overlay"></div>
+
+    <main class="site-layout">
+      <section class="hero-card glass-panel">
+        <div class="hero-top">
+          <div class="avatar-wrap">
+            <div class="avatar-ring"></div>
+            <img class="avatar-photo" src="./assets/avatar.png" alt="杨墨头像">
+          </div>
+          <div class="identity-block">
+            <p class="eyebrow">Personal Card</p>
+            <h1>杨墨</h1>
+          </div>
+        </div>
+
+        <div class="hero-section">
+          <span class="section-label">联系方式</span>
+          <div class="contact-list hero-contact">
+            <a href="tel:18550010360">+86 18550010360</a>
+            <a href="mailto:18550010360@163.com">18550010360@163.com</a>
+            <span>江苏苏州</span>
+          </div>
+        </div>
+
+        <div class="hero-section">
+          <span class="section-label">教育背景</span>
+          <div class="education-card">
+            <h2>南京师范大学</h2>
+            <p>网络与新媒体，本科</p>
+            <p>2023.09 - 2027.06</p>
+          </div>
+        </div>
+
+        <div class="hero-links">
+          <a href="https://v.douyin.com/A8jl6ILNQjI/" class="social-pill" target="_blank" rel="noreferrer" aria-label="抖音主页 01">
+            <i class="ri-video-line"></i>
+          </a>
+          <a href="https://v.douyin.com/Vp5PjjNgd9g/" class="social-pill" target="_blank" rel="noreferrer" aria-label="抖音主页 02">
+            <i class="ri-broadcast-line"></i>
+          </a>
+          <a href="mailto:18550010360@163.com" class="social-pill" aria-label="邮箱">
+            <i class="ri-mail-line"></i>
+          </a>
+          <button class="social-pill copy-pill" data-copy="18550010360" aria-label="复制手机号">
+            <i class="ri-smartphone-line"></i>
+          </button>
+        </div>
+      </section>
+
+      <section class="content-stage glass-panel">
+        <header class="stage-header">
+          <div>
+            <p class="stage-kicker">Resume Sections</p>
+            <h2 id="panel-title">经历</h2>
+          </div>
+          <div class="tab-strip" role="tablist" aria-label="个人信息导航">
+            <button class="tab-button active" data-panel="experience">经历</button>
+            <button class="tab-button" data-panel="portfolio">作品集</button>
+            <button class="tab-button" data-panel="projects">项目</button>
+            <button class="tab-button" data-panel="skills">技能</button>
+          </div>
+        </header>
+
+        <div class="panel-area">
+          <article class="info-panel active" data-panel="experience">
+            <div class="panel-grid experience-grid">
+              <div class="panel-card">
+                <span class="card-tag">壁外（杭州）科技有限公司</span>
+                <h3>产品经理实习生</h3>
+                <p>2026.01 - 2026.03</p>
+                <ul class="detail-list">
+                  <li>负责成长反馈体系从需求验证、方案设计到 PRD 输出的全流程工作，结合竞品研究与业务链路梳理，明确核心机制、需求边界与数据链路。</li>
+                  <li>使用 AI Agent 辅助原型、Demo、前后端流程图与埋点方案输出，并通过测试版体验和链路走查修正关键问题，支撑研发评审与开发落地。</li>
+                  <li>搭建产品数据系统，推进数据埋点设计与数据看板搭建，梳理核心指标、事件命名规范与关键漏斗，为后续迭代和效果分析提供数据支撑。</li>
+                </ul>
+              </div>
+
+              <div class="panel-card">
+                <span class="card-tag">中新凯悦传媒集团有限公司</span>
+                <h3>新媒体运营实习生</h3>
+                <p>2025.07 - 2025.09</p>
+                <ul class="detail-list">
+                  <li>负责《中国新闻周刊》部分新媒体视频的选题策划、脚本撰写、拍摄剪辑及多平台分发。</li>
+                  <li>完成官方抖音、视频号等平台的素材拍摄、内容生产与作品数据分析。</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="info-panel" data-panel="portfolio">
+            <div class="panel-grid portfolio-grid">
+              <div class="panel-card">
+                <span class="card-tag">个人产品</span>
+                <h3>航价通</h3>
+                <p>fly.earfquake.online</p>
+                <ul class="detail-list">
+                  <li>围绕“值不值得买这张机票”的核心决策场景，搭建聚合特价发现、价格走势判断与外跳购票的机票决策辅助产品。</li>
+                  <li>将推荐理由、票规限制、参考价差和趋势结论前置展示，减少用户在多个 OTA 之间反复比价的判断成本。</li>
+                  <li>支持特价浏览、航线搜索、价格监控与平台外跳，明确定位为决策助手而非交易平台。</li>
+                </ul>
+                <div class="link-group">
+                  <a href="https://fly.earfquake.online" target="_blank" rel="noreferrer">在线体验</a>
+                  <a href="https://github.com/yangmo20050509-netizen/hangjiatong" target="_blank" rel="noreferrer">GitHub</a>
+                </div>
+              </div>
+
+              <div class="panel-card accent-card">
+                <span class="card-tag">开源 Skill</span>
+                <h3>JobHound AI 求职陪跑 Agent</h3>
+                <p>ClawHub · 开源免费 Skill</p>
+                <ul class="detail-list">
+                  <li>基于 Skill 框架封装 AI 求职陪跑 Agent，支持中国校招与实习场景下的岗位发现、评估、投递与面试准备。</li>
+                  <li>围绕简历解析、岗位发现、智能评估、定制简历、面试复盘与 Offer 评估设计 8 阶段连续任务流。</li>
+                  <li>沉淀跨会话记忆、STAR 故事银行、竞争度评估与四源面经搜索能力，兼容多个支持 Skill 机制的 Agent 客户端。</li>
+                </ul>
+                <div class="link-group">
+                  <a href="https://clawhub.ai/yangmo20050509-netizen/jobhound" target="_blank" rel="noreferrer">ClawHub</a>
+                  <a href="https://github.com/yangmo20050509-netizen/jobhound" target="_blank" rel="noreferrer">GitHub</a>
+                </div>
+              </div>
+
+              <div class="panel-card large-card accent-card">
+                <span class="card-tag">个人产品</span>
+                <h3>英雄联盟电竞预测看板 - 电竞高僧</h3>
+                <p>esportsmonk.earfquake.online</p>
+                <div class="portfolio-media single">
+                  <img class="portfolio-shot product-shot" src="./assets/portfolio/esports-prediction-dashboard-final.png" alt="英雄联盟电竞预测看板界面预览">
+                </div>
+                <ul class="detail-list">
+                  <li>围绕 LPL 与国际赛事的高频观赛场景，搭建集赛程跟踪、战队档案、选手观察与预测信息于一体的个人产品，降低赛事信息分散带来的获取成本。</li>
+                  <li>以“首页 - 战队档案 - 选手观察 - 高僧预测”为主结构，整合主队近况、选手标签、战绩表现与官方同步时间，强化赛前浏览、信息对比与观点沉淀体验。</li>
+                  <li>独立完成产品定位、信息架构、界面设计与产品落地，形成可持续迭代的英雄联盟电竞信息与预测看板主页。</li>
+                </ul>
+                <div class="link-group">
+                  <a href="https://esportsmonk.earfquake.online" target="_blank" rel="noreferrer">esportsmonk.earfquake.online</a>
+                </div>
+              </div>
+
+              <div class="panel-card large-card">
+                <span class="card-tag">实习案例</span>
+                <h3>成长反馈体系</h3>
+                <p>系统结构、流程验证与端上效果</p>
+                <div class="portfolio-media triple">
+                  <img class="portfolio-shot overview-shot" src="./assets/portfolio/growth-overview-final.png" alt="成长反馈体系结构与流程概览">
+                  <img class="portfolio-shot doc-shot" src="./assets/portfolio/growth-prd-final.png" alt="成长反馈体系 PRD 脱敏截图">
+                  <img class="portfolio-shot mobile-shot" src="./assets/portfolio/growth-mobile-final.png" alt="成长反馈体系端上界面效果">
+                </div>
+                <ul class="detail-list">
+                  <li>围绕阅读产品的持续反馈与获得感设计成长反馈体系，输出系统结构、流程图、泳道图、PRD 与端上原型。</li>
+                  <li>将行为映射、状态流转、前后端职责和埋点需求拆分到可评审层级，支撑方案验证与研发协同。</li>
+                  <li>展示内容覆盖框架梳理、交互链路和界面预览，用于说明从需求定义到方案落地的完整过程。</li>
+                </ul>
+              </div>
+
+              <div class="panel-card large-card">
+                <span class="card-tag">AI 工具</span>
+                <h3>小红书内容生产工具</h3>
+                <p>输入文章，生成可直接微调的小红书图文</p>
+                <div class="portfolio-media single">
+                  <img class="portfolio-shot studio-shot" src="./assets/portfolio/xhs-studio-final.png" alt="小红书内容生产工具界面">
+                </div>
+                <ul class="detail-list">
+                  <li>支持粘贴正文或抓取文章链接，自动生成封面、分页和可编辑预览，适合直接出图与后续微调。</li>
+                  <li>整合模板选择、模板导入、结果预览和二次调整能力，将文章处理与版式生成收进统一界面。</li>
+                  <li>结果区支持下载全图、进入编辑、重新渲染和 AI 调整排版，完整覆盖从内容输入到成图输出的处理链路。</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="info-panel" data-panel="projects">
+            <div class="panel-grid project-grid">
+              <div class="panel-card">
+                <span class="card-tag">个人产品</span>
+                <h3>航价通</h3>
+                <p>2026.04</p>
+                <ul class="detail-list">
+                  <li>面向低价机票决策场景，设计聚合特价发现、航线搜索、价格走势判断与价格监控的产品结构。</li>
+                  <li>将推荐理由、票规限制、价格参考与外跳购票链路前置，降低用户跨平台比价与决策成本。</li>
+                </ul>
+                <div class="link-group">
+                  <a href="https://fly.earfquake.online" target="_blank" rel="noreferrer">在线体验</a>
+                </div>
+              </div>
+
+              <div class="panel-card">
+                <span class="card-tag">Agent 应用</span>
+                <h3>JobHound AI 求职陪跑 Agent</h3>
+                <p>2026.04</p>
+                <ul class="detail-list">
+                  <li>将初期本地工程管线重构为基于 Skill 框架的 Agent 应用，支持中国校招场景下的找岗、评估、投递与面试准备。</li>
+                  <li>构建跨会话记忆、结构化评估与面经聚合能力，形成从岗位发现到 Offer 决策的连续求职陪跑链路。</li>
+                </ul>
+                <div class="link-group">
+                  <a href="https://clawhub.ai/yangmo20050509-netizen/jobhound" target="_blank" rel="noreferrer">ClawHub</a>
+                </div>
+              </div>
+
+              <div class="panel-card">
+                <span class="card-tag">个人产品</span>
+                <h3>电竞看板个人产品开发</h3>
+                <p>2026.03</p>
+                <ul class="detail-list">
+                  <li>针对电竞用户缺少干净、便利的赛程看板工具这一需求，独立完成需求分析、场景拆解与功能取舍。</li>
+                  <li>确定以赛程、比分、战队动态和观赛提醒为核心的信息结构，完成界面设计、数据接入与个人使用版开发。</li>
+                  <li>跑通从需求洞察、方案设计到实际使用版本的完整闭环。</li>
+                </ul>
+              </div>
+
+              <div class="panel-card">
+                <span class="card-tag">组长项目</span>
+                <h3>AIGC 短视频公众情感态度演化研究</h3>
+                <p>2025.11 - 2025.12</p>
+                <ul class="detail-list">
+                  <li>统筹项目规划与研究框架设计，明确分工并协调组员协作，组织定期讨论并动态调整研究策略。</li>
+                  <li>主导数据爬取、情感分类与影响因素分析，量化内容类型、账号属性和传播热度的影响，输出 10+ 可视化图表。</li>
+                </ul>
+              </div>
+
+              <div class="panel-card">
+                <span class="card-tag">个人项目</span>
+                <h3>自媒体运营</h3>
+                <p>2025.09 - 2026.01</p>
+                <ul class="detail-list">
+                  <li>独立完成选题、多平台作品发布、数据分析的全流程运营，根据数据复盘持续调整创作方向。</li>
+                  <li>围绕抖音、小红书、B 站、视频号输出电竞情感剪辑和 AIGC 短视频，三个月内全平台粉丝破千，多视频单平台播放量破百万。</li>
+                </ul>
+              </div>
+
+              <div class="panel-card">
+                <span class="card-tag">个人作业</span>
+                <h3>基于 Python 的电竞比赛弹幕情感分析</h3>
+                <p>2025.05 - 2025.06</p>
+                <ul class="detail-list">
+                  <li>围绕英雄联盟电竞赛事直播弹幕，采集哔哩哔哩平台 LPL 与全球总决赛数据，进行多维情感与文化分析。</li>
+                  <li>融合 SnowNLP 与阿里云 NLP 模型，结合分词、词云和时间序列方法，输出 1 份研究报告和 12 张可视化图表。</li>
+                </ul>
+              </div>
+
+              <div class="panel-card">
+                <span class="card-tag">竞赛项目</span>
+                <h3>“未来金理奖”整合营销大赛</h3>
+                <p>2024.11 - 2024.12</p>
+                <ul class="detail-list">
+                  <li>围绕游戏品牌案例完成用户分析、传播策略设计、活动机制拆解与整合营销方案输出。</li>
+                  <li>结合问卷、评论与社媒内容做用户洞察，形成从市场分析到效果评估的完整策划链路。</li>
+                </ul>
+              </div>
+
+              <div class="panel-card">
+                <span class="card-tag">竞赛项目</span>
+                <h3>招金集团品牌创意方案大赛</h3>
+                <p>2025.06 - 2025.07</p>
+                <ul class="detail-list">
+                  <li>围绕品牌年轻化不足、消费场景单一等痛点，提出“非遗工艺 + 矿山信任 + 全场景陪伴”的差异化策略。</li>
+                  <li>主导广告语创意、品牌视听系统设计与三阶段营销规划，展现品牌策略、用户洞察与场景化思维。</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="info-panel" data-panel="skills">
+            <div class="panel-grid skills-grid">
+              <div class="panel-card">
+                <span class="card-tag">数据处理</span>
+                <div class="chip-cluster">
+                  <span>Python</span>
+                  <span>SQL</span>
+                  <span>Excel</span>
+                  <span>SPSS</span>
+                  <span>Tableau</span>
+                </div>
+              </div>
+
+              <div class="panel-card">
+                <span class="card-tag">设计工具</span>
+                <div class="chip-cluster">
+                  <span>PS</span>
+                  <span>PR</span>
+                  <span>Canva</span>
+                  <span>Axure</span>
+                  <span>Figma</span>
+                  <span>墨刀</span>
+                </div>
+              </div>
+
+              <div class="panel-card large-card">
+                <span class="card-tag">AI 应用</span>
+                <div class="chip-cluster">
+                  <span>AI Agent</span>
+                  <span>Codex</span>
+                  <span>ClaudeCode</span>
+                  <span>AIGC</span>
+                  <span>Midjourney</span>
+                  <span>Lovart</span>
+                  <span>Openclaw</span>
+                </div>
+                <p>AI Agent 应用落地，Openclaw 工作流搭建，用于逻辑验证、资料检索、信息归纳与原型验证。</p>
+              </div>
+
+              <div class="panel-card">
+                <span class="card-tag">课程与语言</span>
+                <ul class="detail-list">
+                  <li>主修：计算传播学、整合营销传播、数据挖掘与数据分析、程序设计基础、平面设计与信息传达、人机交互与媒体集成。</li>
+                  <li>英语：CET-6 608 分。</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" aria-live="polite">已复制到剪贴板</div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
